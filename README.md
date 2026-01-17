@@ -1,6 +1,10 @@
 # ThermaRest - Thermal Regulation Device
 
-![WhatsApp Image 2025-11-24 at 5 50 12 PM](https://github.com/user-attachments/assets/2b3fd891-1f66-4e96-b2f4-4d3577a0d931)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2b3fd891-1f66-4e96-b2f4-4d3577a0d931" 
+       alt="Title Slide" 
+       width="70%"/>
+</p>
 
 ## Project overview
 This project is an Arduino-based thermal regulation system prototype that uses Peltier plates to automatically cool patients and intends to help reduce hospital-induced delirium. It monitors body temperature and galvanic skin reponse (GSR), activates cooling when temperature rises above a calibrated threshold, and displays real-time data on an LCD. The main goal was to explore sensor fusion, actuator control (Peltier + relay), safety in medical prototypes, and how simple temperature regulation can improve patient comfort and sleep quality in a hospital setting.
@@ -41,10 +45,25 @@ This project is an Arduino-based thermal regulation system prototype that uses P
 
 ## Media
 - **Full setup ("Chill Guy")**: Prototype in bed context with cooling pad, Arduino, and nightlight vibe:
-  ![Chill guy under pillow](https://github.com/user-attachments/assets/cb0f8753-f4be-4d03-9d30-c197a81c4500)
-- **Hardware wiring & whiteboard diagram**:
-  <img width="931" height="703" alt="Screenshot 2026-01-16 202001" src="https://github.com/user-attachments/assets/2f615e29-8769-4b06-b062-f0c816fbf8a6" />
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/cb0f8753-f4be-4d03-9d30-c197a81c4500" 
+         alt="Chill guy under pillow" 
+         width="60%"/>
+  </p>
 
+- **Hardware wiring & whiteboard diagram**:
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/2f615e29-8769-4b06-b062-f0c816fbf8a6" 
+         alt="Hardware Overview" 
+         width="600"/>
+  </p>
+
+- **Project Progress** (sensors close-up):
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/YOUR_SENSOR_PROGRESS_IMAGE_ID_HERE"  <!-- replace with actual if different; this is placeholder for the hand-holding-sensors one -->
+         alt="Sensors connected" 
+         width="500"/>
+  </p>
 
 ## Code
 The full Arduino sketch (sensor reading, conversion, threshold logic, LCD updates, relay control) is available in this repository:
