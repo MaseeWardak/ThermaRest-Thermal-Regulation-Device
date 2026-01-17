@@ -12,7 +12,6 @@ This project is an Arduino-based thermal regulation system prototype that uses P
 ## Features
 - **Automatic cooling activation**: Peltier module cools when body temperature exceeds the calibrated threshold (controlled via relay).
 - **Body temperature & GSR monitoring**: Uses sensors to track core temp and skin conductivity in real time.
-- **Calibration button**: Press to set a patient baseline temperature threshold.
 - **Real-time LCD display**: Shows current temperature and GSR values with startup backlight.
 - **User-friendly operation**: Place pad under matress, power on, calibrate — safe to reposition/remove anytime.
 
@@ -21,7 +20,7 @@ This project is an Arduino-based thermal regulation system prototype that uses P
 - **Cooling**: Two peltier modules
 - **Sensors**:
   - Temperature sensor (A0, Si7051 type) for °C conversion
-  - GSR sensor (A1) for skin conductivity
+  - GSR sensor (A1)
 - **Input**: Calibration button (D8)
 - **Display**: I²C LCD (shows temp + GSR live)
 - **Power**: USB Powered.
@@ -58,16 +57,9 @@ This project is an Arduino-based thermal regulation system prototype that uses P
          width="600"/>
   </p>
 
-- **Project Progress** (sensors close-up):
-  <p align="center">
-    <img src="https://github.com/user-attachments/assets/YOUR_SENSOR_PROGRESS_IMAGE_ID_HERE"  <!-- replace with actual if different; this is placeholder for the hand-holding-sensors one -->
-         alt="Sensors connected" 
-         width="500"/>
-  </p>
-
 ## Code
 The full Arduino sketch (sensor reading, conversion, threshold logic, LCD updates, relay control) is available in this repository:
-- [Main Sketch](https://github.com/yourusername/ThermaRest-Thermal-Regulation-Device/blob/main/Code/ThermaRest.ino)
+- [Main Sketch](https://github.com/MaseeWardak/ThermaRest-Thermal-Regulation-Device/blob/main/Code/tempcontrol.ino)
 
 ## Future improvements
 - Upgrade cooling module with proper heat sink for stable, long-duration cooling
